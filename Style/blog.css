@@ -31,6 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 }
 
@@ -54,4 +55,47 @@ nav a {
     border-radius: 5px;
     background: #FD6E0A;
 
+}
+
+/* heder related style*/
+.head {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    /* display: flex; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.bc img {
+    width: 200px;
+    height: 150px;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .bc img {
+    width: 500px;
+
+}
+
+.banner-greet {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.pot {
+    font-size: 18px;
+
+    font-weight: 400;
+    color: #757575;
 }
